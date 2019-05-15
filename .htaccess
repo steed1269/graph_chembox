@@ -1,0 +1,6 @@
+allow from all
+DefaultType text/html
+AddType text/html .csv
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
